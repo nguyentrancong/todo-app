@@ -1,0 +1,32 @@
+.filter-panel {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+}
+
+.filter-item {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-item.selected {
+  background-color: #0f548c;
+  color: white;
+}
+
+.search-text {
+  border-radius: 3px;
+  padding: 3px;
+}

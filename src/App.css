@@ -1,0 +1,27 @@
+.todo-item-text {
+}
+
+.task-input,
+.todo-item {
+  border: 0;
+  background-color: white;
+  width: 100%;
+  padding: 3px 5px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+}
+
+.filter-panel {
+  flex: 1;
+}
+.main-container {
+  background-color: #f0f0f0;
+  padding: 30px;
+  flex: 2;
+}
